@@ -1,13 +1,24 @@
 public class TiposVariaveis {
 
-    // TiposEVariaveis.java
+ 
     public static void main(String[] args) throws Exception {
-        double SalarioMinimo = 2500.33;
-
-        // TiposEVariaveis.java
+        //Estudar tipos primitivos
+        // Estudar a class string que representa texto nas aplicações
+        
+        double salarioMinimo = 2500.33;
 
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
-        short numeroCurto2 = (short) numeroNormal;
+         short numeroCurto2 = (short) numeroNormal;
+
+        int numero = 5;
+
+        numero = 10;
+
+        System.out.println(numero);
+
+            final double VALOR_DE_PI= 3.14;
+      
+
     }
 }
